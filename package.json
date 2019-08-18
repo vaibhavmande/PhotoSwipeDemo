@@ -43,6 +43,7 @@
   "author": "Dmitry Semenov (http://dimsemenov.com)",
   "license": "MIT",
   "dependencies": {
+    "diff": "^4.0.1",
     "node-sass": "^4.12.0"
   }
 }
