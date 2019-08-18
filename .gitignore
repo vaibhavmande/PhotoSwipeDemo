@@ -8,16 +8,13 @@ test/dest
 pkg/
 *.swp
 *~
-_site/
 .bundle/
 .DS_Store
 bbin/
 sftp-config*
-_site
 .htaccess
 private-*
 __article/
-_site/*
 node_modules
 _production
 all.min.css
