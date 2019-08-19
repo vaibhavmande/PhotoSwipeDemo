@@ -2491,6 +2491,10 @@ _registerModule('Gestures', {
 				_globalEventHandlers.mouseup = _globalEventHandlers[_dragEndEvent];
 			}
 
+      document.getElementById("log").innerHTML = JSON.stringify(Object.keys(_globalEventHandlers))
+      // console.log(_globalEventHandlers);
+      console.log(JSON.stringify(Object.keys(_globalEventHandlers)))
+
 			if(!_likelyTouchDevice) {
 				// don't allow pan to next slide from zoomed state on Desktop
 				_options.allowPanToNext = false;

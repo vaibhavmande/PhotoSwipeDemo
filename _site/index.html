@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#" debug="true">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta charset="utf-8">
 
     <title>PhotoSwipe: Responsive JavaScript Image Gallery</title>
 
     <meta name="description" content="Touch-friendly JavaScript image gallery for mobile and desktop, without dependencies. Responsive layout. Swipe and zoom gestures.">
-    <meta name="viewport" content="width = device-width, initial-scale = 1.0"> 
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
 
     <meta name="author" content="Dmitry Semenov">
     <link rel="canonical" href="http://photoswipe.com">
@@ -19,23 +19,23 @@
 
     <link href="https://plus.google.com/102586375605352607718" rel="publisher" />
 
-  
+
     <link rel="icon apple-touch-icon" href="test/apple-touch-icon-144x144.png" sizes="144x144" type="image/png">
     <link href="site-assets/site.css?v=4.1.3-1.0.4" rel="stylesheet" />
     <link href="dist/photoswipe.css?v=4.1.3-1.0.4" rel="stylesheet" />
     <link href="dist/default-skin/default-skin.css?v=4.1.3-1.0.4" rel="stylesheet" />
-    
-    
+
+
       <script>
         document.write('<script src=dist/photoswipe.js?r='+Math.random()+'><\/script>');
         document.write('<script src=dist/photoswipe-ui-default.js?r='+Math.random()+'><\/script>');
-      </script>  
-    
+      </script>
 
-   
-  
 
-    
+
+
+
+
     <script src="//use.typekit.net/snf1yod.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 
@@ -49,8 +49,8 @@
   <body>
 
 
-    
-    
+
+
 
 
     	<div class="section section--head">
@@ -60,7 +60,7 @@
 			<p>JavaScript gallery, no dependencies.</p>
 	    </div>
 
-	    
+
 
 	    <div class="row">
 	      <div id="demo-test-gallery" class="demo-gallery">
@@ -103,7 +103,7 @@
 				<div class="radio">
 		        	<input type="radio" name="gallery-style" value="all" id="radio-all-controls" checked />
 		        	<label for="radio-all-controls">
-			          	
+
 			          	All controls<br/>
 			         	<span>caption, share and fullscreen buttons, tap to toggle controls</span>
 		        	</label>
@@ -112,27 +112,27 @@
 				<div class="radio">
 					<input type="radio" name="gallery-style" value="minimal" id="radio-minimal-black" />
 		        	<label for="radio-minimal-black">
-						
+
 		          		Minimal<br/>
 		          		<span>no caption, transparent background, tap to close</span>
 		          	</label>
 	          	</div>
 
-	      </div> 
+	      </div>
 
-	     
+
 
 	    </div>
 
 	</div>
 
 	<div class="navigation">
-		<div class="row row--nav"><a href="documentation/getting-started.html">Documentation</a> &middot; <a href="https://github.com/dimsemenov/photoswipe">GitHub</a> &middot; <a class="twitter-nav-link" href="http://twitter.com/photoswipe"><span>Twitter</span></a></div> 
+		<div class="row row--nav"><a href="documentation/getting-started.html">Documentation</a> &middot; <a href="https://github.com/dimsemenov/photoswipe">GitHub</a> &middot; <a class="twitter-nav-link" href="http://twitter.com/photoswipe"><span>Twitter</span></a></div>
 	</div>
 
   	<div class="section section--first">
 
-  	 	
+
 
 		<div class="row title-block">
 			<h2>Touch gestures</h2>
@@ -188,7 +188,7 @@
 
     </div>
 
-    
+
 
     <div class="section">
 
@@ -215,7 +215,7 @@
 		<div class="row">
 			<p>This feature comes as a module. You can exclude it from the build entirely, or fork it to fit the requirements of your product’s URL structure.</p>
 		</div>
-       
+
     </div>
 
 
@@ -273,7 +273,7 @@
 			</div>
 		</div>
 
-		<!-- 
+		<!--
 		// TOOD: make a video
 		<div class="row row--wide row--video">
 			<div class="video">
@@ -305,7 +305,7 @@
 	</div>
 
 
-    
+
 
 
     <div class="section">
@@ -384,7 +384,7 @@
 
 		<div class="row">
 			<h3>PhotoSwipe might not be a good idea if…</h3>
-			<ul>  
+			<ul>
 				<li>… your images are small or low quality or if there would be no point in zooming or isolating them. Use a simple list of images or a horizontal scroller instead.</li>
 				<li>… your images are very large and should never be scaled (for example tall infographics with text). Simply link to image file, or create separate HTML page just with image.</li>
 				<li>… your captions are long or more important than the images themselves. Consider using a simple list of images, with captions below or beside them. And when the user clicks on an image for which a larger version is available, then you could open PhotoSwipe, without the caption, to draw attention to the image itself.</li>
@@ -429,7 +429,7 @@
 					<li><span style="border-color:#4ECDC4;">User interface</span><br>all buttons and their actions, captions, etc. (the interface is built exclusively with public methods &mdash; an example of what the API can do)</li>
 					<li><span style="border-color:#3BBDEC;">Events &amp; gestures</span><br>touch, pointer, mouse events and gestures</li>
 					<li><span style="border-color:#C7F464;">Controller</span><br>managing gallery items; adding content to the gallery; returning the sizes of images</li>
-					
+
 				</ul>
 	        </div>
 	        <div class="col-50">
@@ -441,7 +441,7 @@
 				</ul>
 	        </div>
 	    </div>
-	     
+
 		<div class="row row--large ">
 			<p>The total size of core modules (Gzip’d) is about 11 KB + 3 KB UI, which is about <span class="highlight">three times lighter than jQuery 1.11</span> and only <span style="white-space:nowrap;">2 KB</span> heavier than FancyBox.<br>The CSS comes out to 0.5 KB core + 1.5 KB skin + single SVG or PNG icons sprite. Uses <a href="http://sass-lang.com/">Sass</a> preprocessor.</p><p></p>
 	    </div>
@@ -465,7 +465,7 @@
 	        	</ul>
 	        </div>
 	    </div>
-	    
+
 
 		<div class="row">
 			<h3>Supported browsers and devices</h3>
@@ -485,7 +485,7 @@
 			<h3>How PhotoSwipe determines whether a mouse is being used</h3>
 			<p>If both touch and mouse input methods are detected, the script waits for two consecutive <code>mousemove</code> events to occur and only then applies the mouse-only features (for example left/right arrow buttons).</p>
 	    </div>
-		
+
 		<div class="row">
 	        <h3>How the zoom animation works for opening images</h3>
 	        <ol>
@@ -527,7 +527,7 @@
 			  <h2>Please spread the word if you find the script useful</h2>
 			  <div id="buttons-row">
 			    <a id="tweet" rel="nofollow" target="_blank" href="https://twitter.com/intent/tweet?text=New%20PhotoSwipe&amp;url=http://photoswipe.com">Tweet!</a>
-			    <a id="like" rel="nofollow" target="_blank" href="http://www.facebook.com/sharer.php?u=http://photoswipe.com">Like!</a> 
+			    <a id="like" rel="nofollow" target="_blank" href="http://www.facebook.com/sharer.php?u=http://photoswipe.com">Like!</a>
 			    <a id="gplus" rel="nofollow" target="_blank" href="https://plus.google.com/share?url=http://photoswipe.com">+1</a>
 			    <iframe src="http://ghbtns.com/github-btn.html?user=dimsemenov&amp;repo=photoswipe&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="155" height="30" style="transform: translateY(8px);-moz-transform: translateY(8px);-webkit-transform: translateY(8px); margin-left: 9px;"></iframe>
 			  </div>
@@ -539,7 +539,7 @@
 		<div class="row row--footer">
 
 			<p><span title="Coded">&lt;/&gt;</span> with <span title="love">&lt;3</span> in <a class="ukraine-flag" href="http://en.wikipedia.org/wiki/Ukraine" title="Ukraine"></a> by <a href="http://twitter.com/dimsemenov">@dimsemenov</a></p>
-			
+
 		</div>
 
 
@@ -547,10 +547,10 @@
     </div>
 
 
-	
 
 
-    
+
+
 
     <div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="pswp__bg"></div>
@@ -610,8 +610,10 @@
 
 
     </div>
-    
-  
+
+    <div id="log"></div>
+
+
     <script type="text/javascript">
     (function() {
 
@@ -630,7 +632,7 @@
 			    for(var i = 0; i < numNodes; i++) {
 			        el = thumbElements[i];
 
-			        // include only element nodes 
+			        // include only element nodes
 			        if(el.nodeType !== 1) {
 			          continue;
 			        }
@@ -707,8 +709,8 @@
 			        index;
 
 			    for (var i = 0; i < numChildNodes; i++) {
-			        if(childNodes[i].nodeType !== 1) { 
-			            continue; 
+			        if(childNodes[i].nodeType !== 1) {
+			            continue;
 			        }
 
 			        if(childNodes[i] === clickedListItem) {
@@ -737,10 +739,10 @@
 			        if(!vars[i]) {
 			            continue;
 			        }
-			        var pair = vars[i].split('=');  
+			        var pair = vars[i].split('=');
 			        if(pair.length < 2) {
 			            continue;
-			        }           
+			        }
 			        params[pair[0]] = pair[1];
 			    }
 
@@ -768,7 +770,7 @@
 			            // See Options->getThumbBoundsFn section of docs for more info
 			            var thumbnail = items[index].el.children[0],
 			                pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-			                rect = thumbnail.getBoundingClientRect(); 
+			                rect = thumbnail.getBoundingClientRect();
 
 			            return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
 			        },
@@ -781,13 +783,13 @@
 						captionEl.children[0].innerHTML = item.title +  '<br/><small>Photo: ' + item.author + '</small>';
 						return true;
 			        }
-					
+
 			    };
 
 
 			    if(fromURL) {
 			    	if(options.galleryPIDs) {
-			    		// parse real index when custom PIDs are used 
+			    		// parse real index when custom PIDs are used
 			    		// http://photoswipe.com/documentation/faq.html#custom-pid-in-url
 			    		for(var j = 0; j < items.length; j++) {
 			    			if(items[j].pid == index) {
@@ -853,7 +855,7 @@
 				    		useLargeImages = true;
 				        	imageSrcWillChange = true;
 				    	}
-				        
+
 				    } else {
 				    	if(useLargeImages) {
 				    		useLargeImages = false;
@@ -910,10 +912,10 @@
 
 
 
-    
-    
 
-    
+
+
+
 
 
 
