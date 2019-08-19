@@ -77,10 +77,8 @@ var PhotoSwipeUI_Default =
 			clickToCloseNonZoomable: true,
 
 			shareButtons: [
-				{id:'facebooks', label:'Share on Facebook', url:'http://www.pinterest.com/pin/create/button/'+
-													'?url={{url}}&media={{image_url}}&description={{text}}'},
-				{id:'twitters', label:'Tweet', url:'http://www.pinterest.com/pin/create/button/'+
-													'?url={{url}}&media={{image_url}}&description={{text}}'},
+				{id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/'},
+				{id:'twitter', label:'Tweet', url:'https://twitter.com/'},
 				{id:'pinterest', label:'Pin it', url:'http://www.pinterest.com/pin/create/button/'+
 													'?url={{url}}&media={{image_url}}&description={{text}}'},
 				{id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
